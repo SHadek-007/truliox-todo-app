@@ -4,6 +4,7 @@ import auth from '../../../firebase.init';
 import Loading from '../../Loading/Loading';
 import { useNavigate } from 'react-router-dom';
 import { Form } from 'react-bootstrap';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Register = () => {
     const [email, setEmail] = useState("");
@@ -107,7 +108,7 @@ const Register = () => {
         </span>
       </p>
        {errorElement}
-      {/* <SocialLogin></SocialLogin> */}
+      <SocialLogin></SocialLogin>
     </div>
     );
 };

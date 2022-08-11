@@ -10,6 +10,7 @@ import Loading from "../../Loading/Loading";
 import { toast } from 'react-toastify';
 import { Form } from 'react-bootstrap';
 import './Login.css';
+import SocialLogin from "../SocialLogin/SocialLogin";
 
 const Login = () => {
   const [user] = useAuthState(auth);
@@ -114,7 +115,7 @@ const Login = () => {
         </span>
       </p>
       {errorElement}
-      {/* <SocialLogin></SocialLogin> */}
+      <SocialLogin></SocialLogin>
     </div>
   )
 };

@@ -7,12 +7,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBk0vpzcoCf6Pe_wNpigQC5Yh5JrLD838U",
-  authDomain: "todo-app-a39e7.firebaseapp.com",
-  projectId: "todo-app-a39e7",
-  storageBucket: "todo-app-a39e7.appspot.com",
-  messagingSenderId: "785158268448",
-  appId: "1:785158268448:web:d48258951daea726e8fe45"
+  apiKey: "AIzaSyAlUMNy4pugK0a-J7iUKcBeNLTgrpUIw7U",
+  authDomain: "truliox-todo-app.firebaseapp.com",
+  projectId: "truliox-todo-app",
+  storageBucket: "truliox-todo-app.appspot.com",
+  messagingSenderId: "962638394730",
+  appId: "1:962638394730:web:583690c9c729779c812113"
 };
 
 // Initialize Firebase
